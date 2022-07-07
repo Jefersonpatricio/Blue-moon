@@ -1,0 +1,137 @@
+body {
+    background: #f6f6f6;
+    font-family: 'Circular Std';
+    font-style: normal;
+}
+
+.divisor {
+    display: flex;
+}
+
+#logo.img {
+    width: 13vw;
+    margin: 170px 10px 10px 50px;
+}
+
+.conteudodir {
+    width: 35vw;
+    position: relative;
+    background: #0A0A5C;
+    box-shadow: -11px -7px 27px 5px rgb(0 0 0 / 25%);
+    border-radius: 150px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px 0px 80px;
+}
+
+.conteudoesq {
+    display: flex;
+    width: 65vw;
+    background-color: #f6f6f6;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    display: flex;
+    color: #FFB8B8;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.text1 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    color: #FFB8B8;
+    font-size: 75em;
+    width: 66%;
+    padding: 10px;
+    margin: 50px 20px 10px 0px;
+}
+
+h2 {
+    font-size: 4vw;
+}
+
+.midiasSociais p {
+    color: #FFFFFF;
+}
+
+.login-social {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 20px;
+}
+
+input {
+    height: 65px;
+    width: 100%;
+    border-radius: 6px;
+    padding-left: 25px;
+    border: none;
+}
+
+input:focus {
+    outline-color: #FFB8B8;
+}
+
+.esqueceuSenha {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.esqueceuSenha p {
+    color: #FFB8B8;
+}
+
+.esqueceuSenha a {
+    text-decoration: none;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+button {
+    width: 160px;
+    font-size: 1.5em;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0A0A5C;
+    background-color: #FFB8B8;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.registro p {
+    color: #FFFFFF;
+}
+
+.registro a {
+    color: #FFB8B8;
+    text-decoration: none;
+}
+
+.logosuperior {
+    margin: 70px 0px 40px 0px;
+}
+
+.ilustracao img {
+    width: 35vw;
+}
