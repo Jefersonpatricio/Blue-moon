@@ -119,8 +119,8 @@ button:active {
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
-.registro p {
-    color: #FFFFFF;
+.registro {
+    color: white;
 }
 
 .registro a {
