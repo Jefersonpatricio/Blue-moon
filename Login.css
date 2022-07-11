@@ -79,6 +79,15 @@ input {
 
 input:focus {
     outline-color: #FFB8B8;
+    outline-width: medium;
+}
+
+input:focus[type='password'] {
+    letter-spacing: 0.125em;
+}
+
+input:focus::placeholder {
+    color: transparent;
 }
 
 .esqueceuSenha {
