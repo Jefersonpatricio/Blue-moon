@@ -76,7 +76,7 @@ a {
 }
 
 .inicial img {
-    width: 80%;
+    width: 50vw;
 }
 
 .inicial {
@@ -87,7 +87,7 @@ a {
 }
 
 h1 {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 0px;
     color: #F86252;
     font-weight: 500;
